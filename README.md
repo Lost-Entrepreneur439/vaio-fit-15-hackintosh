@@ -21,6 +21,7 @@ Specs of my specific Fit 15:
 Current issues:
 - Intel Bluetooth isn't working
 - The NVIDIA GPU does not work due to being connected via Optimus. This will likely never work in macOS. This EFI disables it via wegnoegpu. Vaio does allow you to disable the NVIDIA GPU in the BIOS, however I leave it enabled and just disable it in macOS via the wegnoegpu bootarg, so I can use it in Windows or Linux. You can disable it in the BIOS if you want to. 
+- Fan control is not working
 
 Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate a MacBookAir6,2 SMBIOS and copy the details to the appropriate sections in the `PlatformInfo` section of the config.plist. **macOS will not work if you don't do this!** Make sure the serial number is invalid. You can check at [Apple's Check Coverage](https://checkcoverage.apple.com) page. If it tells you to enter a valid serial number, you can safely use that serial number in your config.plist. If it gives you the purchase date for a MacBook Air, generate a new SMBIOS **AND DO NOT USE THE ONE WITH A VALID SERIAL NUMBER**. Using an SMBIOS with a valid SN can result in you losing your Apple ID. 
 
