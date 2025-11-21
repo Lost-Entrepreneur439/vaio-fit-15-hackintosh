@@ -1,5 +1,6 @@
 macOS Catalina EFI for the Vaio Fit 15 using OpenCore. I will try to keep this EFI up to date with the latest OpenCore and kexts
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/affcaae3-1e4b-4918-9238-cb3177bf7aa8" />
 
 # WARNING! SMBIOS DETAILS ARE NOT INCLUDED IN THE CONFIG.PLIST.
 You will have to use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate a **MacBookAir5,2** SMBIOS for your system, and add them to the config.plist.
